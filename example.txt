@@ -1,0 +1,56 @@
+//* Structure for function name *\\
+
+1. Model
+    - User
+
+2. service
+    - getUserFromDB
+    - createUserToDB
+    - updateUserToDB
+    - DeleteUserToDB
+    - getUserByIdFromDB
+    - deleteUserByIdToDB
+
+3. Controller
+    - getUser
+    - createUser
+    - updateUser
+    - DeleteUser
+    - getUserById
+    - deleteUserById
+
+4. Routes
+    - userRoutes
+
+5. Routes for hit
+    - get method --> /
+    - create method --> create
+    - update method --> update
+    - delete method --> delete
+
+
+//* Status code for response *\\
+  
+    1. 200 OK: Indicates that the request was successful.
+
+    2. 201 Created: The request has been fulfilled, and a new resource has been created.
+
+    3. 204 No Content: The server successfully processed the request but does not need to return an entity-body.
+
+    4. 400 Bad Request: The request could not be understood or was missing required parameters.
+
+    5. 401 Unauthorized: Authentication is required, and the provided credentials were not valid.
+
+    6. 403 Forbidden: The client does not have permission to access the requested resource.
+
+    7. 404 Not Found: The requested resource could not be found on the server.
+
+    8. 405 Method Not Allowed: The method specified in the request is not allowed for the specified resource.
+
+    9. 500 Internal Server Error: A generic error message indicating that an unexpected condition was encountered on the server.
+
+    10. 501 Not Implemented: The server does not support the functionality required to fulfill the request.
+
+    11. 503 Service Unavailable: The server is currently unable to handle the request due to temporary overloading or maintenance of the server.
+
+    12. 504 Gateway Timeout: The server, while acting as a gateway or proxy, did not receive a timely response from the upstream server or some other auxiliary server.
